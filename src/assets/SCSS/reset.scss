@@ -1,0 +1,55 @@
+:root {
+  --color-main: #4680ff;
+  --dark-blue: #021d3a;
+  --text-yellow: #f5e135;
+  --red-background: #d23228;
+  --red-dark-background: #921108;
+  --lightest-grey: #f8f8f8;
+  --header-footer: #293352;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+html,
+body {
+  font-family: "Exo", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+#global-course,
+.container,
+#carouselExampleDark,
+.stu-information,
+.gf-section-container{
+  @media only screen and (min-width: 1024px) {
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.flex-2{
+  flex: 2;
+}
+
+.display__text--white {
+  color: #fff !important;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 3.75rem;
+}
+
