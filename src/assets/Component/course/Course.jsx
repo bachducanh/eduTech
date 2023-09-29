@@ -1,8 +1,8 @@
 import React from "react";
-import "../SCSS/reset.scss";
-import "../SCSS/course.scss";
-import scratch from "../img/course_scratch.png";
-import python from "../img/course_python.png";
+import "../../SCSS/reset.scss";
+import "./course.scss";
+import scratch from "../../img/course_scratch.png";
+import python from "../../img/course_python.png";
 
 export default function CourseComponent() {
   return (

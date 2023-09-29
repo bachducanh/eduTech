@@ -1,6 +1,7 @@
 import React from "react";
-import "../SCSS/footer.scss";
-import "../SCSS/reset.scss";
+import "./footer.scss";
+import "../../SCSS/reset.scss";
+
 import {
   EnvironmentOutlined,
   WhatsAppOutlined,

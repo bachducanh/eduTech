@@ -15,7 +15,7 @@
 
 #global-slider > .gs-section-background {
   @media only screen and (min-width: 576px) {
-    background-image: url("../img/photocoder.png");
+    background-image: url("../../img/photocoder.png");
     background-attachment: fixed;
     filter: contrast(113%) brightness(72%);
     opacity: 0.93;
@@ -49,35 +49,34 @@
   }
 }
 
-.slogan--yellow{
+.slogan--yellow {
   color: var(--text-yellow);
   font-size: 20px;
 }
 
-.gs-element{
+.gs-element {
   padding: 80px 0px 30px 0px;
 }
 
-.gs-element-paddingtop{
+.gs-element-paddingtop {
   padding-top: 80px;
 }
 
-.gs-button > .btn__register--red{
+.gs-button > .btn__register--red {
   background-color: var(--red-background);
   border-radius: 6px;
   width: 150px;
   color: #fff;
   line-height: 2.5em;
   font-weight: bold;
-
 }
 
-.gs-button > #btn-register:hover{
+.gs-button > #btn-register:hover {
   background-color: #921108;
   // background-color: #398cdf;
   cursor: pointer;
 }
 
-.red-color{
+.red-color {
   color: var(--red-background);
 }

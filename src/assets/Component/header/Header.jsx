@@ -1,16 +1,16 @@
-import React, { useEffect, useState  } from "react";
-import logo from "../img/hnue-logo.png";
-import "../SCSS/reset.scss";
-import "../SCSS/header.scss";
+import React, { useEffect, useState } from "react";
+import logo from "../../img/hnue-logo.png";
+import "../../SCSS/reset.scss";
+import "./header.scss";
 import { CaretDownOutlined } from "@ant-design/icons";
 // import "../JS/scroll.js";
 
 export default function HeaderComponent() {
-  const [scrollFlags , setScrollFlag] = useState(false);
+  const [scrollFlags, setScrollFlag] = useState(false);
   // Chọn phần tử cần thêm class khi cuộn
   const elementToChange = document.getElementById("global-header");
   // elementToChange.classList.remove("scroll");
-  
+
   // Sự kiện cuộn
   window.addEventListener("scroll", () => {
     // Kiểm tra điều kiện để xác định khi nào thêm class
@@ -20,11 +20,14 @@ export default function HeaderComponent() {
       setScrollFlag(false);
     }
   });
-  
- 
+
   return (
     <>
-      <header id="global-header "  className={scrollFlags ? "site-header scroll" : "site-header"} role="banner">
+      <header
+        id="global-header "
+        className={scrollFlags ? "site-header scroll" : "site-header"}
+        role="banner"
+      >
         <div id="gh-main" className="flex items-center relative container">
           <a id="gh-branding" className="flex items-center" href="/">
             <img src={logo} width={60} alt="logo HNUE" className="gh-logo" />

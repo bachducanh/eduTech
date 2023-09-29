@@ -18,23 +18,16 @@ a {
   transition: color 0.3s;
 }
 
-html,
-body {
-  font-family: "Exo", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
-
 img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
 
-
 #global-course,
 .container,
 #carouselExampleDark,
 .stu-information,
-.gf-section-container{
+.gf-section-container {
   @media only screen and (min-width: 1024px) {
     width: 65rem;
     margin-left: auto;
@@ -42,7 +35,7 @@ img {
   }
 }
 
-.flex-2{
+.flex-2 {
   flex: 2;
 }
 
@@ -52,4 +45,3 @@ img {
   line-height: 1;
   font-size: 3.75rem;
 }
-
