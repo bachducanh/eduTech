@@ -1,7 +1,6 @@
 import React from "react";
-import "./footer.scss";
 import "../../SCSS/reset.scss";
-
+import "../footer/footer.scss";
 import {
   EnvironmentOutlined,
   WhatsAppOutlined,
@@ -13,64 +12,33 @@ export default function FooterComponent() {
   return (
     <>
       <footer id="global-footer">
-        <div className="gf-section-container flex justify-between py-12">
-          <section className="gf-information">
-            <h1 className="text-xl font-bold">Đại học Sư phạm Hà Nội</h1>
-            <h2>Hanoi National University of Education</h2>
-          </section>
-          <section className="gf-information">
-            <ul>
-              <li>
-                <a href="">
-                  <EnvironmentOutlined />
-                  136 Xuân Thuỷ - Cầu Giấy - Hà Nội
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <WhatsAppOutlined />
-                  024-37547823 fax: 024-37547971
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <MailOutlined />
-                  haind@hnue.edu.vn
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <HomeOutlined />
-                  http://www.hnue.edu.vn
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section className="gf-information">
-            <h3>Về EduTech</h3>
-            <ul>
-              <li>
-                <a href="">Blog công nghệ</a>
-              </li>
-              <li>
-                <a href="">Về chúng tôi</a>
-              </li>
-              <li>
-                <a href="">Tuyển dụng</a>
-              </li>
-            </ul>
-          </section>
-          <section className="gf-information">
-            <h3>Chương trình học</h3>
-            <ul>
-              <li>
-                <a href="">Học lập trình Scratch</a>
-              </li>
-              <li>
-                <a href="">Học lập trình Python</a>
-              </li>
-            </ul>
-          </section>
+        <div id="gf-main" className="container">
+          <h1 className="text-xl font-bold">TRƯỜNG ĐẠI HỌC SƯ PHẠM HÀ NỘI</h1>
+          <p>Hanoi National University of Education</p>
+          <div className="flex justify-start">
+            <div className="contact-group text-sm">
+              <div className="flex items-center">
+                <EnvironmentOutlined className="mr-2" />
+                <a href="">136 Xuân Thuỷ - Cầu Giấy - Hà Nội</a>
+              </div>
+              <div className="flex items-center">
+                <WhatsAppOutlined className="mr-2" />
+                <a href=""> 024-37547823 fax: 024-37547971</a>
+              </div>
+              <div className="flex items-center">
+                <MailOutlined className="mr-2" />
+                <a href="">haind@hnue.edu.vn</a>
+              </div>
+              <div className="flex items-center">
+                <HomeOutlined className="mr-2" />
+                <a href="">http://www.hnue.edu.vn</a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <h1 className="text-center text-sm" id="copyright">
+            Copyright 2023 by Information Center Technology of HNUE
+          </h1>
         </div>
       </footer>
     </>

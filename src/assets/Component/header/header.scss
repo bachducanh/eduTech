@@ -9,9 +9,9 @@ header {
   background-color: transparent;
   transition: background-color 0.5s ease;
 
-  @media only screen and (max-width: 768px) {
-    background-color: #fff;
-  }
+  // @media only screen and (max-width: 768px) {
+  //   background-color: var(--header-footer);
+  // }
 }
 
 .scroll {
@@ -45,9 +45,7 @@ header {
   color: #fff;
   font-size: 12px;
   font-weight: bold;
-  @media only screen and (max-width: 768px) {
-    color: var(--main-color);
-  }
+
 }
 
 // menu
@@ -111,6 +109,7 @@ header {
   // margin: 20px 16px;
   width: 100%;
   padding: 20px 16px;
+  color: var(--dark-blue);
 }
 
 .subnav > .subnav--item:hover {

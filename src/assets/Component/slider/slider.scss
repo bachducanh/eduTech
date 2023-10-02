@@ -3,7 +3,7 @@
   @media only screen and (min-width: 768px) {
     height: 626.4px;
   }
-  background-color: var(--dark-blue);
+  // background-color: var(--dark-blue);
   z-index: 1000;
   // margin-top: 80px;
 }
@@ -14,12 +14,11 @@
 }
 
 #global-slider > .gs-section-background {
-  @media only screen and (min-width: 576px) {
-    background-image: url("../../img/photocoder.png");
+  background-image: url("../../img/photocoder.png");
     background-attachment: fixed;
     filter: contrast(113%) brightness(72%);
     opacity: 0.93;
-  }
+
 }
 
 #global-slider > .gs-section-background {

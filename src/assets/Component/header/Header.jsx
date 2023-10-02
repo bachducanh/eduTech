@@ -42,7 +42,7 @@ export default function HeaderComponent() {
           <div className="gh-desktop gh-menu-and-language">
             <ul className="nav flex items-center">
               <li className="nav-item">
-                <a href="" className="flex items-center">
+                <a href="#global-course" className="flex items-center">
                   Khoá học
                   <CaretDownOutlined className="ml-2" />
                 </a>
@@ -53,25 +53,26 @@ export default function HeaderComponent() {
                   </div>
                   <hr />
                   <li className="subnav--item">
-                    <a href="">Scratch</a>
+                    <a href="#Scratch">Scratch</a>
                   </li>
                   <li className="subnav--item">
-                    <a href="">Computer Science</a>
+                    <a href="#CS">Computer Science</a>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
+                <a href="#global-about">Về chúng tôi</a>
+              </li>
+              {/* <li className="nav-item">
                 <a href="">Học viên</a>
+              </li> */}
+              <li className="nav-item">
+                <a href="#global-teacher">Giảng viên</a>
               </li>
               <li className="nav-item">
-                <a href="">Giảng viên</a>
+                <a href="#global-partner">Đối tác</a>
               </li>
-              <li className="nav-item">
-                <a href="">Đối tác</a>
-              </li>
-              <li className="nav-item">
-                <a href="">Về chúng tôi</a>
-              </li>
+              
             </ul>
           </div>
         </div>

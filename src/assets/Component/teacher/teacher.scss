@@ -1,0 +1,33 @@
+#global-teacher {
+  margin-top: 50px;
+  width: 100%;
+  background-color: var(--dark-blue);
+  color: #fff;
+  .gt-main {
+    .gt-container {
+      padding: 50px 0px;
+
+      .branding-teacher {
+        img {
+          border-radius: 8px;
+        }
+      }
+
+      .gt-information {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+.view-more {
+  button {
+    background-color: var(--red-background);
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+  }
+  button:hover{
+    background-color: var(--red-dark-background);
+  }
+}

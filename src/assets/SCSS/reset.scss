@@ -6,11 +6,12 @@
   --red-dark-background: #921108;
   --lightest-grey: #f8f8f8;
   --header-footer: #293352;
+  --box-shadow: 0 0.0625rem 0.125rem #00000026, 0 0.0625rem 0.25rem #00000026;
 }
 * {
   margin: 0px;
   padding: 0px;
-  margin: 0px;
+  box-sizing: border-box;
 }
 
 a {
@@ -25,9 +26,9 @@ img {
 
 #global-course,
 .container,
-#carouselExampleDark,
-.stu-information,
-.gf-section-container {
+#global-about,
+#global-partner,
+.gt-main{
   @media only screen and (min-width: 1024px) {
     width: 65rem;
     margin-left: auto;
@@ -44,4 +45,12 @@ img {
   font-weight: bold;
   line-height: 1;
   font-size: 3.75rem;
+}
+
+
+.tag-line-component{
+  width: 65px;
+  float: left;
+  border: 3.5px solid var(--color-main);
+  border-radius: 5px;
 }
