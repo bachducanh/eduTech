@@ -4,6 +4,7 @@ import "./course.scss";
 import scratch from "../../img/course_scratch.png";
 import python from "../../img/course_python.png";
 import cs from "../../img/course_cs.png";
+import pdf from "../../PDF/TTCNTT.pdf";
 
 export default function CourseComponent() {
   return (
@@ -38,7 +39,7 @@ export default function CourseComponent() {
               </i>
               <br className="mt-4" />
 
-              <button id="btn-viewall-course">View All</button>
+              <a id="btn-viewall-course" href={pdf} >View All</a>
             </div>
           </div>
         </div>
@@ -68,7 +69,8 @@ export default function CourseComponent() {
                 </span>
               </i>
               <br className="mt-4" />
-              <button id="btn-viewall-course">View All</button>
+              <a id="btn-viewall-course" href={pdf} >View All</a>
+
             </div>
           </div>
         </div>
@@ -96,7 +98,7 @@ export default function CourseComponent() {
                 </span>
               </i>
               <br className="mt-4" />
-              <button id="btn-viewall-course">View All</button>
+              <a id="btn-viewall-course" href={pdf} >View All</a>
             </div>
           </div>
         </div>
