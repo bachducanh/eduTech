@@ -2,7 +2,7 @@ import React from "react";
 import "../../SCSS/reset.scss";
 import "../../Component/partner/partner.scss";
 import fpt from "../../img/FPT_logo.png";
-import viettel from "../../img/viettel_logo.png";
+import viettel from "../../img/Viettel_logo.png";
 import vin from "../../img/Vingroup_logo.png";
 import vnpt from "../../img/VNPT-Logo.png";
 export default function PartnerComponent(){
